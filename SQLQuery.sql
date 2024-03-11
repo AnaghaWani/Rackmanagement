@@ -1,0 +1,1 @@
+create table report(serial_no int, txn_date date, txn_time time, txn_shift varchar(25), type_no varchar(50), quantity bigint, batch_no varchar(50), curr_user varchar(50), txn_type varchar(30), primary key (serial_no));
